@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/html"
+  xmlns="http://www.w3.org/1999/html"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="grid-layout.css" rel="stylesheet" />
+    <title>Grid-Layout</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="header">
+        <div class="header-items">
+          <!--           Logo image and link -->
+          <a class="logo-image" href="grid-layout.html">
+            <img
+              alt="business logo"
+              class="logo-image"
+              height="50"
+              src="logo.jpg"
+              width="50"
+            />
+          </a>
+          <nav class="navigation">
+            <a class="main-anchor" href="#">Home</a>
+            <a class="main-anchor" href="#">New</a>
+            <a class="main-anchor" href="#">Pricing</a>
+            <a class="main-anchor" href="#">Brands</a>
+          </nav>
+        </div>
+      </div>
+
+      <!--       Introduction section -->
+      <div class="intro-container">
+        <!--         h1 for header -->
+        <h1 class="h1-welcome-message">Welcome to Sweet Dreams Bakery</h1>
+        <p class="intro-message">
+          Indulge in a world of sweetness and flavor, where every bite is a
+          delightful journey. Discover our passion for creating exquisite
+          pastries, cakes, and confections that bring joy to your life.
+        </p>
+
+        <!--         product: break making -->
+        <div class="intro-product-img">
+          <img
+            alt="bread making"
+            class="products-image"
+            src="bread-making.jpg"
+          />
+          <!--             <nav> -->
+          <!--               <a class="products-link">Bread Making</a> -->
+          <!--             </nav> -->
+        </div>
+
+        <!--         product: more baking -->
+        <div class="intro-product-img">
+          <img
+            alt="baking image"
+            class="products-image"
+            src="baking-img.webp"
+          />
+        </div>
+
+        <!--         Product: man baking -->
+        <div class="intro-product-img">
+          <img
+            alt="man baking image"
+            class="products-image"
+            src="man-baking.jpg"
+          />
+        </div>
+      </div>
+      <!--       Sidebar section start -->
+      <div class="side-bar container">
+        <!--         <h2 class="product-header">Our Products</h2> -->
+
+        <!--         product: doughnut -->
+        <div class="products-grid">
+          <div class="products-flex">
+            <img
+              alt="doughnut-image"
+              class="products-image"
+              src="doughnut.jpg"
+            />
+            <nav>
+              <a class="products-link" href="#">Doughnuts</a>
+            </nav>
+          </div>
+        </div>
+
+        <!--         Product: bread -->
+        <div class="products-grid">
+          <div class="products-flex">
+            <img alt="bread image" class="products-image" src="bread.jpg" />
+            <nav>
+              <a class="products-link" href="#">Bread</a>
+            </nav>
+          </div>
+        </div>
+
+        <!--         product: cake1 -->
+        <div class="products-grid" id="cake1">
+          <div class="products-flex">
+            <img alt="cake image" class="products-image" src="cake1.jpg" />
+            <nav><a class="products-link" href="#">Cake</a></nav>
+          </div>
+        </div>
+
+        <!--         Product: cake2 -->
+        <div class="products-grid" id="cake2">
+          <div class="products-flex">
+            <img alt="cake image" class="products-image" src="cake2.jpg" />
+            <nav>
+              <a class="products-link" href="#">Cake</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="main-content"></div>
+
+      <div class="footer">Footer</div>
+    </div>
+  </body>
+</html>

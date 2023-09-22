@@ -1,0 +1,37 @@
+.main-container {
+  /*background-color: #fefae0;*/
+  display: grid;
+  height: 100vh;
+  gap: 20px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.header {
+  background-color: #dda15e;
+  grid-column: 1 / -1;
+}
+
+.main-content {
+  background-color: blue;
+  grid-column: 3 / 9;
+}
+
+.side-bar {
+  background-color: yellow;
+  grid-column: 9 / 11;
+}
+
+#twin1 {
+  background-color: green;
+  grid-column: 3 / 7;
+}
+
+#twin2 {
+  background-color: greenyellow;
+  grid-column: 7 / 11;
+}
+
+.footer {
+  background-color: #dda15e;
+  grid-column: 1 / -1;
+}
